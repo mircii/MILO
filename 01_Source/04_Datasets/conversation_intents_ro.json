@@ -1,0 +1,77 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Salut", "Bună", "Hei", "Bună dimineața", "Bună seara", "Ce faci?", "Hei acolo", 
+                "Ce mai zici?", "Bună ziua", "Ciao"
+            ],
+            "responses": [
+                "Salut! Cu ce te pot ajuta?", "Hei, ce mai faci?", "Bună! Cum te pot ajuta?", 
+                "Mă bucur că te văd! Ce pot face pentru tine?", "Salut! Cum îți pot fi de ajutor?"
+            ]
+        },
+        {
+            "tag": "career_advice",
+            "patterns": [
+                "Cum îmi găsesc un loc de muncă?", "Ai sfaturi pentru CV?", "Cum mă pregătesc pentru un interviu?",
+                "Ce abilități sunt în trend?", "Cum negociez salariul?", "Cum să îmi fac un CV bun?", 
+                "Cum să mă promovez pe LinkedIn?", "Ce să fac pentru a obține un job de top?"
+            ],
+            "responses": [
+                "Asigură-te că CV-ul tău este compatibil cu ATS.", "Personalizează-ți CV-ul pentru fiecare aplicație.",
+                "Exersează întrebările comune de interviu.", "Adaugă abilități tehnice căutate de angajatori.",
+                "Cercetează salarizarea și negociază înainte de a accepta oferta.", 
+                "Un CV bun arată realizările și abilitățile tale cele mai importante.", 
+                "Networkingul pe LinkedIn te poate ajuta foarte mult!", "Fii pregătit să te promovezi prin exemple concrete de realizări."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Pa", "Ne vedem mai târziu", "La revedere", "La revedere!", "Pa, pa", "Ne auzim curând", 
+                "O zi bună!", "În curând!", "Ne vedem!", "Adio!"
+            ],
+            "responses": [
+                "La revedere! O zi minunată!", "Ne vedem data viitoare!", "Ai grijă de tine!",
+                "Să ai o zi excelentă!", "La revedere! Abia aștept să vorbim din nou!", "Pe curând!"
+            ]
+        },
+        {
+            "tag": "small_talk",
+            "patterns": [
+                "Cum e vremea?", "Ce îți place să faci?", "Îți place muzica?", "Care e mâncarea ta preferată?",
+                "Ce hobby-uri ai?", "Ce faceți în weekend?", "Cum te simți astăzi?", "Ce carte citești?"
+            ],
+            "responses": [
+                "Iubesc să învăț lucruri noi în fiecare zi!", "Muzica este grozavă! Ce gen îți place?", 
+                "Pizza e întotdeauna o alegere bună!", "Îmi place să discut cu oameni interesanți!", 
+                "Vremea e frumoasă azi! Ce vreme aveți acolo?", "Sunt întotdeauna pregătit să te ajut!"
+            ]
+        },
+        {
+            "tag": "advice",
+            "patterns": [
+                "Cum rămân motivat?", "Cum să gestionez stresul?", "Care e cheia succesului?", 
+                "Cum să îmi fac obiceiuri bune?", "Cum să îmi îmbunătățesc încrederea în mine?"
+            ],
+            "responses": [
+                "Setează obiective mici și sărbătorește progresul!", "Încearcă meditația și ia pauze regulate.",
+                "Consistența și învățarea din eșecuri sunt cheia succesului!", "Începe cu pași mici și rămâi constant!",
+                "Crede în tine și provocă-ți gândurile negative!"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Am nevoie de ajutor!", "Cum mă poți ajuta?", "Poți să mă ajuți cu ceva?", 
+                "Nu știu ce să fac!", "Am o problemă, poți să mă ajuți?", "Cum rezolv asta?"
+            ],
+            "responses": [
+                "Sigur! Descrie-mi problema și te voi ghida.", "Te pot ajuta cu orice, spune-mi cum pot fi de ajutor.",
+                "Îmi pare rău că ai o problemă, hai să o rezolvăm împreună!", "Spune-mi ce ai nevoie și îți voi oferi soluții.",
+                "Voi face tot ce pot să te ajut!"
+            ]
+        }
+    ]
+}
